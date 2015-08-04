@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Twitter-Style Registration Form | Coding Example Jessica Jordan Front-End Developer</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+<link rel="stylesheet" href="login-form.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+<header class="main-header card-panel blue lighten-1 center-align"><div class="container left-align">
+	<div class="col s12 white-text"><p class="header-title">Newsletter</p></div>
+	</div>
+</header>
+<section class="container main-content">
+<form class="wim-signup">
+	<div class="row">
+		<div class="col s12 center-align"><h1 class="main-title">Sign up now</h1></div>
+	</div>
+	<!-- username -->
+	<div class="row">
+		<div class="col s4 offset-s4">
+			<input id="username" class="wim-input" type="text" placeholder="your username" required>
+			<span class="wim-error">Please provide an username</span>
+		</div>
+		<div class="col s4">
+			<label for="username"  class="wim-label">Type in your favourite name</label>
+		</div>
+	</div>
+	<!-- email -->
+	<div class="row">
+		<div class="col s4 offset-s4">
+			<input id="email" class="wim-input" type="email" placeholder="your e-mail address" required>
+			<span class="wim-error">E-mail address must contain one @ character and a valid domain</span>
+		</div>
+		<div class="col s4">
+			<label for="email" class="wim-label">Type in your current e-mail address</label>
+		</div>
+	</div>
+	<!-- password -->
+	<div class="row">
+		<div class="col s4 offset-s4">
+			<input id="password" class="wim-input" type="password" placeholder="your password" required>
+			<span class="wim-error">Provide a secure password</span>
+		</div>
+		<div class="col s4">
+			<label for="password" class="wim-label">Type in a password</label>
+		</div>
+	</div>
+	<!-- submission button -->
+	<div class="row">
+		<div class="col s4 offset-s4 center-align">
+			<button class="wim-button" type="submit">Yeah!</button>
+		</div>
+		<div class="col s4"></div>
+	</div>
+</form>
+</section>
+<script type="text/javascript" src="login.js"></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+p, a, span, strong, ul, li, h1, h2, h3, h4, .wim-label{
+	color: #444444;
+	font-weight: normal;
+}
+
+p, a, ul, li{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.wim-signup input[type=text]:focus:not([readonly]), .wim-signup input[type=email]:focus:not([readonly]),
+.wim-signup input[type=password]:focus:not([readonly]){
+	color: #42A5F5;
+	border-bottom: 1px solid #42A5F5;
+	box-shadow: 0 2px 0 0 #42A5F5;
+}
+
+.wim-label{
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.4s ease-in;
+	-o-transition: all 0.4s ease-in;
+	transition: all 0.4s ease-in;
+}
+.focus .wim-label{
+	color: #26a69a;
+}
+
+.wim-signup .ok input[type=text]:not([readonly]), .wim-signup .ok input[type=email]:not([readonly]),
+.wim-signup .ok input[type=password]:not([readonly]){
+	color: #00ee33;
+	border-bottom: 1px solid #00ee33;
+	box-shadow: 0 2px 0 0 #00ee33;
+}
+
+.ok .wim-label{
+	color: #00ee33;
+}
+
+.container{
+	min-width: 640px;
+}
+
+.main-header{
+	padding: 0.05rem 0;
+	margin-top: 0;
+}
+
+.header-title{
+	color: #ffffff;
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 30px;
+}
+
+.main-title{
+	font-size: 32px;
+	line-height: 44px;
+}
+
+.wim-error{
+	font-size: 12px;
+	line-height: 16px;
+	color: #d93300;
+}
+
+
+
+.wim-button{
+	font-size: 18px;
+	font-weight: bold;
+	color: #42A5F5;
+	border: 2px solid #42A5F5;
+	border-radius: 2px;
+	padding: 0.8rem 1rem;
+	background-color: transparent;
+	width: 100%;
+	-webkit-transition: all 0.4s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
+
+.wim-button:hover{
+	color: #64C7F7;
+	border-color: #64C7F7;
+}
