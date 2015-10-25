@@ -1,0 +1,41 @@
+
+* {
+  box-sizing: border-box;
+}
+
+p, 
+a {
+  font-size: 14px;
+}
+.main-title.really-main-title{
+  color: #7777dd;
+  font-size: 18px;
+}
+
+.main-content {
+  background-color: #d7d7d7;
+  margin: 0 auto;
+  width: 1000px;
+  padding: 15px;
+  border: 5px solid #dd77dd;
+}
+
+
+
+.col-30, 
+.col-70 {
+  float: left;
+}
+
+.col-30 {
+width: 30%;
+}
+.col-70 {
+width: 70%;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
